@@ -1,0 +1,23 @@
+:root {
+  --primary-font-stack: 'PT Sans', Verdana, sans-serif;
+  --primery-font-color: #212121;
+  --link-font-color: #1976d2;
+}
+body {
+  font-family: var(--primary-font-stack);
+  color: var(--primery-font-color);
+  line-height: 1.5;
+  font-size: 16px;
+}
+.item {
+  list-style-type: none;
+}
+.link {
+  color: var(--link-font-color);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: #ff4081;
+  text-decoration: underline;
+}

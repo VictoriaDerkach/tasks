@@ -1,0 +1,27 @@
+:root {
+  --primary-font-stack: 'Roboto', Verdana, sans-serif;
+  --primery-font-color: #212121;
+  --link-font-color: #2196f3;
+}
+body {
+  font-family: var(--primary-font-stack);
+  line-height: 1.5;
+  font-size: 16px;
+}
+.logo {
+  font-size: 18px;
+  color: var(--primery-font-color);
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  color: var(--primery-font-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--link-font-color);
+  cursor: pointer;
+}
+.item {
+  list-style-type: none;
+}
