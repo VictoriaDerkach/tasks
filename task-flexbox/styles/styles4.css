@@ -1,0 +1,9 @@
+li:nth-last-child(3n + 3) {
+  background-color: #ff4081;
+}
+li:nth-last-child(3n + 2) {
+  background-color: #ff9800;
+}
+li:nth-last-child(3n - 2) {
+  background-color: #4caf50;
+}

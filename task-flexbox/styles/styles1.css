@@ -1,0 +1,6 @@
+.list-item:not(:first-child) {
+  margin-top: 16px;
+}
+.list-item {
+  list-style: none;
+}
