@@ -1,0 +1,101 @@
+/* Task 1 */
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: #2a2a2a;
+  position: relative;
+  margin: 30px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: palegreen;
+  position: absolute;
+  text-align: center;
+  color: #423e3e;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 2.5;
+}
+.box:nth-child(2) {
+  background-color: palevioletred;
+  top: 0;
+  right: 0;
+}
+.box:nth-child(3) {
+  background-color: palegoldenrod;
+  bottom: 0;
+  right: 0;
+}
+.box:nth-child(4) {
+  background-color: powderblue;
+  bottom: 0;
+  left: 0;
+}
+.box:nth-child(5) {
+  background-color: peachpuff;
+  transform: translate(150%, 0);
+}
+.box:nth-child(6) {
+  background-color: palegreen;
+  transform: translate(300%, 150%);
+}
+.box:nth-child(7) {
+  background-color: palevioletred;
+  transform: translate(150%, 300%);
+}
+.box:nth-child(8) {
+  background-color: palegoldenrod;
+  transform: translate(0, 150%);
+}
+.box:nth-child(9) {
+  background-color: paleturquoise;
+  transform: translate(150%, 150%);
+}
+
+/* Task 2 */
+
+.btn {
+  width: 200px;
+  height: 50px;
+  margin: 30px;
+  color: #ffffff;
+  background-color: #1976d2;
+  font-weight: 500;
+  font-size: 25px;
+  cursor: pointer;
+}
+.btn:hover {
+  transition: 250ms;
+  background-color: #115293;
+}
+
+/* Task 3 */
+
+.card {
+  position: relative;
+  margin: 30px;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 320px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-size: 20px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 250ms;
+}
+.card:hover .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+.about,
+.name {
+  padding: 10px;
+}

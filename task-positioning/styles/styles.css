@@ -1,0 +1,84 @@
+/* Task 1 */
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.categories {
+  padding: 0;
+}
+.item {
+  display: flex;
+}
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.item:before {
+  content: url(../images/icon.svg);
+  width: 25px;
+  margin-right: 10px;
+}
+main {
+  padding: 20px;
+}
+
+/* Task 2 */
+
+.article-paragraph::selection {
+  color: #ffffff;
+  background-color: #3f51b5;
+}
+
+/* Task 3 */
+
+body {
+  background-repeat: repeat;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(../images/task-03-image.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* Task 4 */
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: #2a2a2a;
+  position: relative;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: palegreen;
+  position: absolute;
+  text-align: center;
+  color: #423e3e;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 2.5;
+}
+.box:nth-child(2) {
+  background-color: palevioletred;
+  top: 0;
+  right: 0;
+}
+.box:nth-child(3) {
+  background-color: paleturquoise;
+  bottom: 0;
+  left: 0;
+}
+.box:nth-child(4) {
+  background-color: palegoldenrod;
+  bottom: 0;
+  right: 0;
+}
